@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OhMyFood</title>
-    <link rel="stylesheet" type="text/css" href="stylle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family= family= Roboto & display=swap" rel="stylesheet">
@@ -18,7 +18,9 @@
 
 <body>
     <header>
+       <div class="logoheader">
         <img src="images/logo/ohmyfood.png" alt="Logo OhMyFood">
+       </div>
     </header>
 
   <main>
@@ -30,23 +32,28 @@
          </section>
 
          <section class="section-explorer">
+           <div class="texte-explorer">
              <h2>Réservez le menu qui<br>vous convient</h2>
              <p>Découvrez des restaurants d'exception,<br>sélectionnées par nos soins.</p>
              <a class="btn-explorer" href="###">Explorer nos restaurants</a>
+           </div>
          </section>
 
          <section class="section-fonctionnement">
                 <h2>Fonctionnement</h2>
             <ul>
                 <li class="etapes">
+                     <div class="numero">1</div>
                      <i class="fa-solid fa-mobile-screen-button"></i>
                      <p>Choisissez un restaurant</p>
                 </li>
                 <li class="etapes">  
+                    <div class="numero">2</div>
                     <i class="fa-solid fa-list-ul"></i>
                     <p>Composez votre menu</p>
-               </li>
+                </li>
                <li class="etapes">
+                    <div class="numero">3</div>
                     <i class="fa-solid fa-store"></i>
                     <p>Dégustez au restaurant</p>
                </li>
@@ -56,8 +63,10 @@
          <section class="section-restaurants">
                   <h2>Restaurants</h2>
             <div class="card-resto">
-                <a href="resto_un.html" class="card">     
+                <a href="resto_un.html" class="card">
+                     <div class="images-resto">     
                        <img src="images/restaurants/un.jpg" alt="La palette du goût">
+                     </div>
                   <div class="card-content">
                      <div class="card-texte">
                         <h3>La palette du goût</h3>
@@ -72,9 +81,11 @@
 
 
            
-                <a href="##" class="card">     
              <div class="card-resto">
+               <a href="##" class="card">  
+                     <div class="images-resto">   
                        <img src="images/restaurants/quatres.jpg" alt="La note enchantée">
+                     </div>
                   <div class="card-content">
                      <div class="card-texte">
                         <h3>La note enchantée</h3>
@@ -88,8 +99,10 @@
              </div>
 
              <div class="card-resto">
-                <a href="##" class="card">     
+               <a href="##" class="card">  
+                     <div class="images-resto">   
                        <img src="images/restaurants/deux.jpg" alt="A la française">
+                     </div>
                   <div class="card-content">
                      <div class="card-texte">
                         <h3>A la française</h3>
@@ -105,15 +118,17 @@
 
              <div class="card-resto">
                 <a href="##" class="card">     
+                     <div class="images-resto">   
                        <img src="images/restaurants/trois.jpg" alt="Le délice des sens">
+                     </div>
                   <div class="card-content">
                      <div class="card-texte">
                         <h3>Le délice des sens</h3>
                         <p>Folie-Méricourt</p>
                      </div>
-                  </div>
-                  <div class="card-coeur">
+                    <div class="card-coeur">
                      <i class="fa-regular fa-heart"></i>
+                     </div>
                   </div>
                 </a>       
              </div>
@@ -122,10 +137,10 @@
          <footer>
                 <div class="logofooter">ohmyfood</div>
             <div class="bloc-footer">
-                <a class="text-footer" href="##"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
-                <a class="text-footer" href="##"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
-                <a class="text-footer" href="##">Mentions légales</a>
-                <a class="text-footer" href="##">Contact</a>
+                <a class="text-footer" href="##"><i class="fa-solid fa-utensils"></i><p>Proposez un restaurant</p></a>
+                <a class="text-footer" href="##"><i class="fa-solid fa-handshake-angle"></i><p>Devenez partenaire</p></a>
+                <a class="text-footer" href="##"><p>Mentions légales</p></a>
+                <a class="text-footer" href="##"> <p>Contact</p></a>
             </div>
          </footer>
 </body>
