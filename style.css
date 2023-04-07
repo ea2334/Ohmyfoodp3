@@ -205,9 +205,19 @@ header a{
     left: 25px;
 }
 
+.img-la-palette-un img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
 .img-la-palette img{
     width: 100%;
     object-fit: cover;
+}
+
+.menu{
+    margin-top: 50px;
 }
 
 .section-menu h2{
