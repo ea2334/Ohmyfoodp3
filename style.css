@@ -196,4 +196,96 @@ footer .text-footer{
     margin-top: 15px;
 }
 
-/*** Restaurants 1 ***/
+/*** Restaurants ***/
+
+.img-la-palette img{
+    width: 100%;
+}
+
+.section-menu h2{
+font-size: 17px;    
+margin-left: 15px;
+font-weight: 300;
+}
+
+.menu{
+    margin-top: 10px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-menu i{
+    font-size: 28px;
+}
+
+.menu h2{
+    border-bottom: solid 3px #99E2D0;
+    width: 10%;
+    padding-bottom: 8px;
+}
+
+.card-plats{
+background: #FFFFFF;
+box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+
+display: flex;
+flex-direction: column;
+
+margin: 15px;
+position: relative;
+}
+
+.card-plats h3{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-plats p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contenu-card{
+    margin-left: 15px;
+    line-height: 15px;
+}
+
+.contenu-card .prix{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.header-menu h1{
+    font-family: 'Shrikhand';
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.commander{
+    padding: 40px;
+}
+
+.btn-commander{
+background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+color: white;
+
+margin-left: 42px;
+padding: 20px;
+color: white;
+
+width: 60%;
+display: flex;
+justify-content: center;
+
+}
