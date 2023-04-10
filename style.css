@@ -12,9 +12,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-main{
     background-color: #F7F7F7;
 }
 
@@ -23,6 +20,7 @@ header{
     justify-content: center;
     height: 65px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
 }
 
 header .logoheader{
@@ -222,6 +220,18 @@ header a{
     object-fit: cover;
 }
 
+.img-la-palette{
+position: relative;
+}
+
+.main-resto{
+position: relative;
+top: -50px;
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;
+background-color: #F7F7F7;
+}
+
 .menu{
     margin-top: 50px;
 }
@@ -301,6 +311,7 @@ border-radius: 25px;
 color: white;
 font-size: 20px;
 
+margin-top: 30px;
 margin-left: 42px;
 padding: 20px;
 
@@ -326,7 +337,7 @@ br{
 }
 
 .section-fonctionnement h2{
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
 .section-fonctionnement ul{
@@ -339,12 +350,19 @@ br{
     height: 60px;
 }
 
-.bloc-resto{
-flex-wrap: wrap;
+.section-restaurants h2{
+    margin-left: 100px;
 }
 
-.section-restaurants .card{
-    width: 30%;
+.section-restaurants .bloc-resto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-resto{
+    width: 500px;
 }
 
 footer{
@@ -365,5 +383,8 @@ footer{
     margin-left: 20px;
 }
 
+.img-la-palette img{
+    height: 300px;
+}
    
 }
