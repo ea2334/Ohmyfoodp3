@@ -60,6 +60,7 @@ header .logoheader img{
 
 .section-explorer h2{
     margin: 0px;
+    font-size: 24px;
 }
 
 .section-explorer p{
@@ -126,6 +127,11 @@ position: relative;
 .section-restaurants{
     background-color: rgb(246, 246, 246);
     padding: 20px;
+}
+
+.section-restaurants .bloc-resto{
+    display: flex;
+    flex-direction: column;
 }
 
 .section-restaurants .images-resto img{
@@ -302,4 +308,62 @@ width: 60%;
 display: flex;
 justify-content: center;
 
+}
+
+/***** Version Destkop *****/
+@media screen and (min-width: 1024px) {
+
+br{
+    display: none;
+}
+
+.section-explorer h2{
+    font-size: 40px;
+}
+
+.texte-explorer{
+    line-height: 2;
+}
+
+.section-fonctionnement h2{
+    margin-left: 110px;
+}
+
+.section-fonctionnement ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-fonctionnement .etapes{
+    width: 25%;
+    height: 60px;
+}
+
+.bloc-resto{
+flex-wrap: wrap;
+}
+
+.section-restaurants .card{
+    width: 30%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bloc-footer{
+   flex-direction: row;
+   margin-right: 100px;
+}
+
+.logofooter{
+    margin-top: 18px;
+}
+
+.text-footer{
+    margin-left: 20px;
+}
+
+   
 }
