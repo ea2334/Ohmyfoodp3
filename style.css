@@ -123,6 +123,10 @@ position: relative;
     color: #7E7E7E;
 }
 
+.etapes i:hover{
+    color: #9356DC;
+}
+
 .section-restaurants{
     background-color: rgb(246, 246, 246);
     padding: 20px;
@@ -154,11 +158,24 @@ position: relative;
     position: relative;
 }
 
-.card i{
+.card .card-coeur{
    position: absolute;
    top: 25px;
    right: 25px;
    font-size: 23px;
+}
+
+.card .coeur-rempli{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 23px;
+    opacity: 0;
+}
+
+.coeur-rempli:hover{
+    opacity: 1;
+    color: #9356DC;
 }
 
 .section-restaurants .card{
@@ -173,7 +190,7 @@ position: relative;
     height: 100%;
 }
 
-.section-restaurants span{
+.section-restaurants .new{
     background: #99E2D0;
     color: #008766;;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
@@ -275,9 +292,16 @@ font-weight: 300;
 }
 
 .menu h2{
-    border-bottom: solid 3px #99E2D0;
-    width: 10%;
-    padding-bottom: 8px;
+    position: relative;
+}
+
+.border::after{
+    content: '';
+    position: absolute;
+    background-color: #99E2D0;
+    height: 3px;
+    width: 40px;
+    bottom: -7px;
 }
 
 .card-plats{
@@ -333,8 +357,7 @@ border-radius: 25px;
 color: white;
 font-size: 20px;
 
-margin-top: 30px;
-margin-left: 42px;
+margin: auto;
 padding: 20px;
 
 width: 60%;
@@ -352,12 +375,11 @@ body{
 
 .main-resto{
     width: 70%;
-    margin-left: 193px;
+    margin: 0 auto;
 }
 
 .btn-commander{
     width: 180px;
-    margin-left: 300px;
 }
 
 br{
@@ -373,7 +395,7 @@ br{
 }
 
 .section-fonctionnement h2{
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .section-fonctionnement ul{
@@ -387,14 +409,16 @@ br{
 }
 
 .section-restaurants h2{
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
-.section-restaurants .bloc-resto{
+.section-restaurants .ligne-un-resto, .ligne-deux-resto{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.ligne-deux-resto{
+    margin-top: 30px;
 }
 
 .card-resto{
