@@ -317,12 +317,7 @@ font-weight: 300;
 background: #FFFFFF;
 box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 border-radius: 15px;
-
-display: flex;
-flex-direction: column;
-
 margin: 15px;
-position: relative;
 }
 
 .card-plats h3{
@@ -336,18 +331,18 @@ position: relative;
 }
 
 .contenu-card{
+    display: flex;
+    align-items: center;
     margin-left: 15px;
-    line-height: 15px;
+    line-height: 10px;
+    overflow: hidden;
 }
 
 .contenu-card .prix{
-    position: absolute;
-    top: 50px;
-    right: 20px;
+    margin-left: auto;
     font-weight: 700;
     font-size: 17px;
 }
-
 
 .header-menu h1{
     font-family: 'Shrikhand';
@@ -524,6 +519,7 @@ footer{
     background: #99E2D0;
 }
 
+
 @keyframes apparition {
    0% {
     transform: scale(0);
@@ -543,5 +539,29 @@ footer{
 
 .delay3{
     animation: apparition 6s;
+}
+
+
+.checking{
+background: #99E2D0;
+border-radius: 0px 15px 15px 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 60px;
+height: 72px;
+color: white;
+font-size: 25px;
+
+margin-right: -60px;
+margin-left: 20px;
+
+
+transition: all 0.5s ease-in-out;
+transform: rotate(-360deg);
+}
+
+.card-plats:hover .checking{
+    margin-right: 0px;
 }
 
