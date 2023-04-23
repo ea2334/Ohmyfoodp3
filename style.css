@@ -120,6 +120,7 @@ border-radius: 20px;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+cursor: pointer;
 
 margin: 30px;
 margin-left: 10px;
@@ -131,7 +132,7 @@ position: relative;
     color: #7E7E7E;
 }
 
-.etapes i:hover{
+.etapes:hover i{
     color: #9356DC;
 }
 
@@ -318,7 +319,8 @@ font-weight: 300;
     background-color: #99E2D0;
     height: 3px;
     width: 40px;
-    bottom: -7px;
+    margin-top: -15px;
+    margin-left: 15px;
 }
 
 .contenu-card h3{
