@@ -326,11 +326,19 @@ font-weight: 300;
 .contenu-card h3{
     font-weight: 700;
     font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px;
 }
 
 .contenu-card p{
     font-weight: 300;
     font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px;
 }
 
 .contenu-card{
@@ -343,6 +351,12 @@ font-weight: 300;
     padding-left: 15px;
     line-height: 10px;
     overflow: hidden;
+}
+
+.contenu-card-texte{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .contenu-card .prix{
@@ -562,7 +576,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 60px;
-height: 72px;
+height: 90px;
 color: white;
 font-size: 25px;
 
