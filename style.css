@@ -329,7 +329,7 @@ font-weight: 300;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 4px;
+    padding: 5px;
 }
 
 .contenu-card p{
@@ -338,7 +338,7 @@ font-weight: 300;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 4px;
+    padding: 5px;
 }
 
 .contenu-card{
